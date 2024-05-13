@@ -1,0 +1,83 @@
+{
+  "template": "alta-en",
+  "general": {
+    "name": "Samuele Nidiaci",
+    "jobtitle": "Frontend - Backend - Machine Learning",
+    "email": "elialotti.dev@gmail.com",
+    "location": "Certaldo (FI)",
+    "website": "https://elialotti.com",
+    "linkedin": "elia-lotti-dev",
+    "github": "kaosdev"
+  },
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "freelancer",
+      "start": "feb 2022",
+      "end": "ongoing",
+      "location": "",
+      "descriptions": [
+        "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
+        "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
+        "Support/Mentoring on a project written in React and Express",
+        "Development of a management system for electronic invoicing"
+      ]
+    },
+    {
+      "title": "Frontend Developer \\& ML Engineer",
+      "company": "Hermes Trade",
+      "start": "jul 2018",
+      "end": "mar 2023",
+      "location": "Firenze",
+      "descriptions": [
+        "Team Leader in a group of 4 data scientists in a consulting context",
+        "Productization and deployment of machine learning algorithms. Used Angular, React, FastAPI, Celery, Redis, Docker, AWS",
+        "Development of a system for training anomaly detectors on short-term temporal data. Used Python and TensorFlow",
+        "Development of a library for working with COCO datasets (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{cocohelper}})",
+        "Development of a no-code system for creating management systems. Developed in Angular and Python",
+        "Development of the interface of a web app for intervention planning, written in Angular"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "\\href{https://www.elialotti.com/it/roadmap/rxjs}{\\underline{RxJS Roadmap}}",
+      "desc": "Interactive map explaining the RxJS library."
+    },
+    {
+      "name": "\\href{https://github.com/kaosdev/map.js}{\\underline{map.js}}",
+      "desc": "JavaScript library for creating interactive concept maps. Written in TypeScript."
+    }
+  ],
+  "skills": {
+    "Web Development": [
+      "Angular",
+      "Typescript",
+      "RxJS",
+      "ReactJS",
+      "express",
+      "NestJS"
+    ],
+    "Machine Learning": ["python", "Tensorflow", "pandas", "scikit-learn"],
+    "Other": ["Docker", "Git", "Linux"]
+  },
+  "languages": {
+    "Italian": 5,
+    "English": 4
+  },
+  "certifications": [
+    {
+      "title": "Tensorflow Developer Certificate",
+      "academy": "Tensorflow",
+      "date": "09/2021 -- 09/2024",
+      "link": "https://www.credential.net/255b9c9e-2984-4c80-9525-69781c4f5d73"
+    }
+  ],
+  "education": [
+    {
+      "title": "Diploma in Computer Science",
+      "academy": "IIS G.Ferraris - F. Brunelleschi",
+      "date": "09/2020"
+    }
+  ]
+}
