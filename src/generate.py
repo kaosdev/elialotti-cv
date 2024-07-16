@@ -67,4 +67,4 @@ if __name__ == '__main__':
     render_latex(data)
     render_pdf()
 
-    copy2("temp/resume.tex", f"output/{name}.tex")
+    copy2("temp/resume.pdf", f"output/{name}.pdf")
