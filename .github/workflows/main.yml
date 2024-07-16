@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate CV
         run: docker-compose up --build
+      - name: Generate pdf
+        run: docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplusorg/latex find -name /tmp/output/*.tex -exec latexmk -outdir=/tmp/output -pdf {} \
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
