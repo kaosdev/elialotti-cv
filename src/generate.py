@@ -41,7 +41,7 @@ def render_latex(data):
     
 
 def render_pdf(filename="temp/resume.tex"):
-  subprocess.run(["texliveonfly", '--arguments="-output-directory=temp"', filename]) #, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  subprocess.run(["latexmk", '-outdir=temp', filename]) #, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 if __name__ == '__main__':
@@ -65,6 +65,6 @@ if __name__ == '__main__':
     load_template(data["template"])
 
     render_latex(data)
-    # render_pdf()
+    render_pdf()
 
     copy2("temp/resume.tex", f"output/{name}.tex")
