@@ -1,4 +1,4 @@
-FROM elialottidev/python-latex:v3
+FROM elialottidev/python-latex:v4
 
 COPY ./src/requirements.txt /app/src/requirements.txt
 
