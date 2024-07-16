@@ -65,6 +65,6 @@ if __name__ == '__main__':
     load_template(data["template"])
 
     render_latex(data)
-    render_pdf()
+    # render_pdf()
 
-    copy2("temp/resume.pdf", f"output/{name}.pdf")
+    copy2("temp/resume.tex", f"output/{name}.tex")
