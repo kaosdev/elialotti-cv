@@ -17,6 +17,7 @@
       "end": "ongoing",
       "location": "",
       "descriptions": [
+        "Development of a web app for house pricing calculation. Used NestJS, Angular and PostgresSQL. Deployed to google cloud with a ci/cd",
         "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
         "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
         "Support/Mentoring on a project written in React and Express",
