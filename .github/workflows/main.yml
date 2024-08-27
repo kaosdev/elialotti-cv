@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate CV
-        run: docker-compose up --build
+        run: docker compose up --build
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
