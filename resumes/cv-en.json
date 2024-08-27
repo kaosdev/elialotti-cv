@@ -17,6 +17,7 @@
       "end": "ongoing",
       "location": "",
       "descriptions": [
+        "Development of a platform for an online AI academy. Used python. Deployed on AWS with DynamoDB as a database",
         "Development of a web app for house pricing calculation. Used NestJS, Angular and PostgresSQL. Deployed to google cloud with a ci/cd",
         "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
         "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
