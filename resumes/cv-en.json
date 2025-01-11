@@ -11,13 +11,36 @@
   },
   "experience": [
     {
+      "title": "Frontend | Backend Developer",
+      "company": "Flowy",
+      "start": "sep 2024",
+      "end": "ongoing",
+      "location": "",
+      "descriptions": [
+        "Developed and maintained a comprehensive dashboard for transportation companies to visualize passenger data, utilizing Angular and Tailwind CSS for the frontend and Express.js with MongoDB for the backend.",
+        "Designed and implemented interactive data visualizations, including tables, charts, and custom views, to provide actionable insights on passenger flow, carriage usage, and entry/exit trends.",
+        "Collaborated closely with cross-functional teams to ensure seamless integration of sensor data into the dashboard"
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "ProfessionAI",
+      "start": "aug 2024",
+      "end": "ongoing",
+      "location": "",
+      "descriptions": [
+        "Developed a platform for tutors to manage project submissions and provide detailed feedback to students, using Python with NiceGUI for the interface and DynamoDB for the database.",
+        "Implemented an algorithm to automatically assign project submissions to tutors, ensuring timely corrections.",
+        "Development of a new student dashboard to track master program progress, including courses and projects completed and remaining, utilizing FastAPI for the backend and MongoDB for data storage.",
+      ]
+    },
+    {
       "title": "Software Developer",
-      "company": "freelancer",
+      "company": "freelance",
       "start": "feb 2022",
       "end": "ongoing",
       "location": "",
       "descriptions": [
-        "Development of a platform for an online AI academy. Used python. Deployed on AWS with DynamoDB as a database",
         "Development of a web app for house pricing calculation. Used NestJS, Angular and PostgresSQL. Deployed to google cloud with a ci/cd",
         "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
         "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
