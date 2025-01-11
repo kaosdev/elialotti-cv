@@ -31,7 +31,7 @@
       "descriptions": [
         "Developed a platform for tutors to manage project submissions and provide detailed feedback to students, using Python with NiceGUI for the interface and DynamoDB for the database.",
         "Implemented an algorithm to automatically assign project submissions to tutors, ensuring timely corrections.",
-        "Development of a new student dashboard to track master program progress, including courses and projects completed and remaining, utilizing FastAPI for the backend and MongoDB for data storage.",
+        "Development of a new student dashboard to track master program progress, including courses and projects completed and remaining, utilizing FastAPI for the backend and MongoDB for data storage."
       ]
     },
     {
