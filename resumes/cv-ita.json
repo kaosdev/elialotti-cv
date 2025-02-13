@@ -1,8 +1,9 @@
 {
-  "template": "alta",
+  "template": "one-col-it",
   "general": {
     "name": "Elia Lotti",
-    "jobtitle": "Frontend - Backend - Machine Learning",
+    "jobtitle": "Fullstack Developer",
+    "tel": "+393408424351",
     "email": "elialotti.dev@gmail.com",
     "location": "Certaldo (FI)",
     "website": "elialotti.com",
@@ -11,16 +12,41 @@
   },
   "experience": [
     {
+      "title": "Fullstack Developer",
+      "company": "Flowy",
+      "start": "sep 2024",
+      "end": "ongoing",
+      "location": "",
+      "descriptions": [
+        "Sviluppata e gestita una dashboard intuitiva per aziende di trasporto, migliorando il processo decisionale attraverso la visualizzazione dei dati sui passeggeri con Angular e Tailwind CSS per il frontend ed Express.js integrato con MongoDB per il backend.",
+        "Create visualizzazioni interattive dei dati, come tabelle, grafici e viste personalizzate, per fornire insights sul flusso dei passeggeri, l'utilizzo delle carrozze e le tendenze di ingresso/uscita.",
+        "Collaborato con team interfunzionali per integrare i dati dei sensori nella dashboard."
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "ProfessionAI",
+      "start": "aug 2024",
+      "end": "ongoing",
+      "location": "",
+      "descriptions": [
+        "Creata una piattaforma web per permettere ai tutor di gestire le consegne dei progetti e fornire feedback dettagliati agli studenti, usato python, nicegui e DynamoDB.",
+        "Implementato un algoritmo di assegnazione che ha ottimizzato la distribuzione delle consegne ai tutor, riducendo i tempi di correzione.",
+        "Progettata e implementata una dashboard per studenti con backend FastAPI e archiviazione dati su MongoDB per monitorare i progressi del master, inclusi lo stato dei corsi e dei progetti."
+      ]
+    },
+    {
       "title": "Software Developer",
       "company": "autonomo",
       "start": "feb 2022",
       "end": "attuale",
       "location": "",
       "descriptions": [
-        "Sviluppo del software per un dispositivo medico analitico. Utilizzati python, PyQT5 per la UI e opencv per elaborazione immagini",
-        "Sviluppo di una web app per il controllo remoto di macchine industriali. Utilizzati Angular, NestJS e postgresql",
-        "Supporto/Mentoring su progetto scritto in react ed express",
-        "Sviluppo di un gestionale per fatturazione elettronica"
+        "Progettato e implementato una web app per il controllo remoto di fresatrici utilizzando Angular, NestJS e PostgreSQL.",
+        "Sviluppata una web app per il calcolo dei prezzi delle case con NestJS, Angular e PostgreSQL, messa in produzione su Google Cloud con pratiche CI/CD.",
+        "Creato il software di un dispositivo medico analitico utilizzando Python, PyQt5 per l'interfaccia utente e OpenCV per l'elaborazione delle immagini.",
+        "Fornito supporto e mentoring per un progetto sviluppato in React ed Express.",
+        "Sviluppata una piattaforma per la fatturazione elettronica."
       ]
     },
     {
@@ -30,50 +56,33 @@
       "end": "mar 2023",
       "location": "Firenze",
       "descriptions": [
-        "Team Leader in un gruppo di 4 data scientists in un contesto di consulenza",
-        "Messa in produzione di algoritmi di machine learning. Usati angular, react, fastapi, celery, redis, docker, aws",
-        "Sviluppo di sistema per l'addestramento di anomaly detectors su dati temporali brevi. Usato python e tensorflow",
-        "Sviluppo di una libreria per lavorare con dataset COCO (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{cocohelper}})",
-        "Sviluppo di un sistema no-code per la creazione di gestionali. Sviluppato in Angular, Java e Python",
-        "Sviluppo dell'interfaccia di una web app per pianificazione di interventi, scritta in angular"
+        "Seguito un team di 4 data scientist in un contesto di consulenza.",
+        "Implementato e distribuito algoritmi di Machine Learning utilizzando Angular, React, FastAPI, Celery, Redis, Docker e tecnologie AWS.",
+        "Sviluppato un sistema per addestrare anomaly detectors su dati temporali a breve termine con Python e TensorFlow.",
+        "Creata una libreria Python per la manipolazione di dataset COCO.",
+        "Progettato un sistema low-code per la creazione di erp custom, utilizzando Angular e Python."
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "\\href{https://www.elialotti.com/it/roadmap/rxjs}{\\underline{RxJS Roadmap}}",
-      "desc": "Mappa interattiva che spiega la libreria RxJS."
-    },
-    {
-      "name": "\\href{https://github.com/kaosdev/map.js}{\\underline{map.js}}",
-      "desc": "Libreria javascript per la creazione di mappe concettuali interattive. Scritta in typescript."
-    }
-  ],
   "skills": {
-    "Sviluppo Web": [
-      "Angular",
-      "Typescript",
-      "RxJS",
-      "ReactJS",
-      "express",
-      "NestJS"
-    ],
-    "Machine Learning": ["python", "Tensorflow", "pandas", "scikit-learn"],
-    "Altro": ["Docker", "Git", "Linux"]
+    "Frontend": ["Angular", "ReactJS", "Typescript", "RxJS"],
+    "Backend": ["Python", "FastAPI", "Express", "NestJS"],
+    "Database": ["PostgreSQL", "MongoDB", "DynamoDB"],
+    "Machine Learning": ["Tensorflow", "pandas", "scikit-learn"],
+    "DevOps": ["Docker", "AWS", "Google Cloud"]
   },
   "languages": {
     "Italiano": 5,
     "Inglese": 4
   },
-  "certifications": [
+  "certifications": [],
+  "education": [
     {
       "title": "Tensorflow Developer Certificate",
       "academy": "Tensorflow",
       "date": "09/2021 -- 09/2024",
       "link": "https://www.credential.net/255b9c9e-2984-4c80-9525-69781c4f5d73"
-    }
-  ],
-  "education": [
+    },
     {
       "title": "Diploma in Informatica",
       "academy": "IIS G.Ferraris - F. Brunelleschi",

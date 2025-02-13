@@ -77,6 +77,7 @@
 \personalinfo{%
   % Not all of these are required!
   \email{<var>general.email</var>}
+  \phone{<var>general.tel</var>}
   % \phone{000-00-0000}
   % \mailaddress{Åddrésş, Street, 00000 Cóuntry}
   \location{<var>general.location</var>}
@@ -118,7 +119,7 @@
 % UPDATE: changed to 1-column layout.
 \begin{paracol}{1}
   %% EXPERIENCE
-  \cvsection{Experience}
+  \cvsection{Esperienza}
 
   <block>for job in experience</block>
   \cvevent{<var>job.title</var>}{<var>job.company</var>}{<var>job.start</var> -- <var>job.end</var>}{<var>job.location</var>}
@@ -139,7 +140,7 @@
   \medskip
 
   %% EDUCATION
-  \cvsection{Education}
+  \cvsection{Istruzione}
 
   <block>for edu in education</block>
 
@@ -164,8 +165,8 @@
 
   \cvsection{Skills}
 
-  <block>for _, section_skills in skills.items()</block>
-    <block>for skill in section_skills</block>\cvtag{<var>skill</var>}<var>"\\\\" if (loop.index % 10) == 0 else ""</var><block>endfor</block>
+  <block>for name, section_skills in skills.items()</block>
+    <var>name</var>: <block>for skill in section_skills</block>\cvtag{<var>skill</var>}<var>"\\\\" if (loop.index % 10) == 0 else ""</var><block>endfor</block>
   <block>if not loop.last</block>
   \smallskip
   <block>endif</block>

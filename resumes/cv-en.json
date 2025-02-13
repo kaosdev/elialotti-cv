@@ -1,8 +1,9 @@
 {
-  "template": "alta-en-one-col",
+  "template": "one-col-en",
   "general": {
     "name": "Elia Lotti",
-    "jobtitle": "Frontend - Backend - Machine Learning",
+    "jobtitle": "Fullstack Developer",
+    "tel": "+393408424351",
     "email": "elialotti.dev@gmail.com",
     "location": "Certaldo (FI)",
     "website": "https://elialotti.com",
@@ -11,13 +12,13 @@
   },
   "experience": [
     {
-      "title": "Frontend | Backend Developer",
+      "title": "Fullstack Developer",
       "company": "Flowy",
       "start": "sep 2024",
       "end": "ongoing",
       "location": "",
       "descriptions": [
-        "Developed and managed a dashboard for transportation firms to view passenger data using Angular, Tailwind CSS (frontend), and Express.js with MongoDB (backend).",
+        "Developed and managed an intuitive dashboard for transportation firms, enhancing decision-making by visualizing passenger data with Angular, Tailwind CSS (frontend), and Express.js integrated with MongoDB (backend).",
         "Created interactive data visualizations like tables, charts, and custom views to offer insights on passenger flow, carriage usage, and entry/exit trends.",
         "Collaborated with cross-functional teams to integrate sensor data seamlessly into the dashboard."
       ]
@@ -30,7 +31,7 @@
       "location": "",
       "descriptions": [
         "Created a platform using Python with NiceGUI for tutors to manage project submissions and offer detailed feedback to students, integrating DynamoDB for database functionality.",
-        "Introduced an automated assignment algorithm for efficient distribution of project submissions to tutors, ensuring prompt corrections.",
+        "Implemented an automated assignment algorithm that streamlined the distribution of project submissions to tutors, resulting in a reduction in correction time.",
         "Designed and implemented a student dashboard with FastAPI backend and MongoDB data storage to monitor master program progress, including course and project status."
       ]
     },
@@ -41,9 +42,9 @@
       "end": "ongoing",
       "location": "",
       "descriptions": [
-        "Developed a web app for house pricing calculation using NestJS, Angular, and PostgreSQL. Deployed to Google Cloud with continuous integration/continuous deployment (CI/CD).",
-        "Created the software of an analytical medical device utilizing Python, PyQt5 for the UI, and OpenCV for image processing.",
         "Designed and implemented a web app for remote control of milling machines with Angular, NestJS, and PostgreSQL technologies.",
+        "Engineered a web application for calculating house prices using NestJS, Angular, and PostgreSQL, successfully deploying it to Google Cloud with integrated CI/CD practices.",
+        "Created the software of an analytical medical device utilizing Python, PyQt5 for the UI, and OpenCV for image processing.",
         "Provided support and mentoring on a project involving React and Express technologies.",
         "Developed a platform for electronic invoicing"
       ]
@@ -58,28 +59,17 @@
         "Led a team of 4 data scientists in a consulting setting.",
         "Implemented and deployed ML algorithms using Angular, React, FastAPI, Celery, Redis, Docker, and AWS technologies.",
         "Built a system to train anomaly detectors on short-term temporal data with Python and TensorFlow.",
-        "Created the a library for COCO dataset manipulation. (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{library link}})",
+        "Created a python library for COCO dataset manipulation.",
         "Designed a low-code system for management tool creation using Angular and Python."
       ]
     }
   ],
   "skills": {
-    "Web Development": [
-      "Angular",
-      "Typescript",
-      "RxJS",
-      "ReactJS",
-      "express",
-      "NestJS"
-    ],
-    "Machine Learning": [
-      "python",
-      "FastAPI",
-      "Tensorflow",
-      "pandas",
-      "scikit-learn"
-    ],
-    "Other": ["Docker", "AWS", "gcloud", "Git", "Linux"]
+    "Frontend": ["Angular", "ReactJS", "Typescript", "RxJS"],
+    "Backend": ["Python", "FastAPI", "Express", "NestJS"],
+    "Database": ["PostgreSQL", "MongoDB", "DynamoDB"],
+    "Machine Learning": ["Tensorflow", "pandas", "scikit-learn"],
+    "DevOps": ["Docker", "AWS", "Google Cloud"]
   },
   "languages": {
     "Italian": 5,
