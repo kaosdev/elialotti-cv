@@ -32,7 +32,8 @@
       "descriptions": [
         "Created a platform using Python with NiceGUI for tutors to manage project submissions and offer detailed feedback to students, integrating DynamoDB for database functionality.",
         "Implemented an automated assignment algorithm that streamlined the distribution of project submissions to tutors, resulting in a reduction in correction time.",
-        "Designed and implemented a student dashboard with FastAPI backend and MongoDB data storage to monitor master program progress, including course and project status."
+        "Designed and implemented a student dashboard with FastAPI backend and MongoDB data storage to monitor master program progress, including course and project status.",
+        "Created a FastAPI service for course certificates creation and validation"
       ]
     },
     {
@@ -42,6 +43,7 @@
       "end": "ongoing",
       "location": "",
       "descriptions": [
+        "Created a support chatbot with specific domain knowledge, using langchain",
         "Designed and implemented a web app for remote control of milling machines with Angular, NestJS, and PostgreSQL technologies.",
         "Engineered a web application for calculating house prices using NestJS, Angular, and PostgreSQL, successfully deploying it to Google Cloud with integrated CI/CD practices.",
         "Created the software of an analytical medical device utilizing Python, PyQt5 for the UI, and OpenCV for image processing.",
